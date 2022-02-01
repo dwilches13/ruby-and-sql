@@ -11,6 +11,7 @@ for contact in apple.contacts
 end
 
 amazon = Company.where({name: "Amazon.com, Inc."})[0]
+puts "Contacts at Amazon.com"
 for contact in amazon.contacts
     puts "#{contact.first_name} #{contact.last_name} - #{contact.company.name}"
 end

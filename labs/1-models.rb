@@ -29,7 +29,7 @@ contact.save
 contact = Contact.new
 contact.first_name = "Andres"
 contact.last_name = "Roman"
-contact.email = "roman@tesla.com"
+contact.email = "roman@amazon.com"
 contact.phone_number = "6"
 contact.company_id = amazon_id
 contact.save
